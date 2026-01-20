@@ -1,16 +1,20 @@
-## Code du capteur NDVI
+# Code du capteur NDVI
 
-Ce dossier regroupe l’ensemble du code du projet NDVI, incluant le code embarqué
-sur microcontrôleur et les scripts de traitement et de visualisation des données.
+Ce dossier regroupe l’ensemble du code du projet NDVI.
+Il inclut le code embarqué exécuté sur microcontrôleur ainsi que les scripts de
+traitement et de visualisation des données.
 
 ---
 
 ## Organisation du dossier
 
-- `arduino/` : code embarqué du capteur NDVI (acquisition des capteurs, calculs,
-  horodatage et enregistrement des données sur carte SD)
-- `python/` : scripts Python pour l’exploitation des données (tableaux et tracés
-  de l’évolution du NDVI en fonction du temps)
+- **arduino/**  
+  Code embarqué du capteur NDVI : acquisition des capteurs, calculs,
+  horodatage et enregistrement des données sur carte SD.
+
+- **python/**  
+  Scripts Python pour l’exploitation des données : affichage sous forme de
+  tableaux et tracé de l’évolution du NDVI en fonction du temps.
 
 ---
 
@@ -23,7 +27,7 @@ Le code Arduino permet :
 - l’horodatage des mesures à l’aide du module RTC DS3231,
 - l’enregistrement des données sur carte SD.
 
-Le code est développé et testé sur une carte Arduino Nano 33 IoT.
+Le code est développé et testé sur une carte **Arduino Nano 33 IoT**.
 
 ---
 
