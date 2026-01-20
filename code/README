@@ -1,0 +1,35 @@
+# Code du capteur NDVI
+
+Ce dossier regroupe l’ensemble du code du projet NDVI, incluant le code embarqué
+sur microcontrôleur et les scripts de traitement et de visualisation des données.
+
+---
+
+## Organisation du dossier
+
+- `arduino/` : code embarqué du capteur NDVI (acquisition des capteurs, calculs,
+  horodatage et enregistrement des données sur carte SD)
+- `python/` : scripts Python pour l’exploitation des données (tableaux et tracés
+  de l’évolution du NDVI en fonction du temps)
+
+---
+
+## Code Arduino
+
+Le code Arduino permet :
+- la communication avec les capteurs spectraux AS7265x (vigne et ciel) via le bus I2C,
+- la gestion du multiplexeur TCA9548A,
+- la lecture des capteurs environnementaux (BME280, MPU6050),
+- l’horodatage des mesures à l’aide du module RTC DS3231,
+- l’enregistrement des données sur carte SD.
+
+Le code est développé et testé sur une carte Arduino Nano 33 IoT.
+
+---
+
+## Code Python
+
+Les scripts Python permettent :
+- la lecture des fichiers CSV générés par le capteur,
+- l’affichage des données sous forme de tableaux,
+- le tracé de l’indice NDVI en fonction du temps.
