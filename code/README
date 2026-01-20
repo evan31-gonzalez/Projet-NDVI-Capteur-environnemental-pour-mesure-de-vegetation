@@ -1,4 +1,4 @@
-# Code du capteur NDVI
+## Code du capteur NDVI
 
 Ce dossier regroupe l’ensemble du code du projet NDVI, incluant le code embarqué
 sur microcontrôleur et les scripts de traitement et de visualisation des données.
