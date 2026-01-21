@@ -1,6 +1,6 @@
 # Projet NDVI : Capteur environnemental pour la vigne
 
-Projet tutoré de développement instrumental visant la conception et la réalisation d’un capteur NDVI (Normalized Difference Vegetation Index) destiné au suivi de l’état de la vigne à partir de mesures spectrales.
+Projet tutoré de développement instrumental, collaboratif entre **CESBIO** et l'**IUT Mesures Physiques**, visant la conception et la réalisation d’un capteur NDVI (Normalized Difference Vegetation Index) destiné au suivi de l’état de la vigne à partir de mesures spectrales.
 
 Le capteur est conçu pour être utilisé en conditions réelles dans les vignes de Gaillac, dans un contexte de suivi agronomique et environnemental.
 
