@@ -85,7 +85,7 @@ Le projet comprend :
 ## Contexte expérimental
 Ce projet est réalisé dans le cadre du BUT Mesures Physiques (Techniques d’Instrumentation).
 
-Les campagnes de mesures terrain sont prévues sur des parcelles de vigne situées à Gaillac, avec des phases de tests, d’étalonnage et de validation prévues à partir de 2026.
+Les campagnes de mesures terrain sont prévues sur des parcelles de vigne situées à Gaillac, avec des phases de tests, d’étalonnage et de validation prévues à partir de mars 2026.
 
 ---
 
