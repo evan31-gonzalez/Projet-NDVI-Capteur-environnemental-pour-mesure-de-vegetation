@@ -136,13 +136,6 @@ dans le rouge et le proche infrarouge.
 3. Orienter le second capteur spectral vers le ciel afin de mesurer la lumière incidente.
 4. Vérifier que le capteur reste immobile pendant la phase de mesure.
 
-== Acquisition des données
-- Le capteur démarre automatiquement l’acquisition après la mise sous tension.
-- Les capteurs spectraux mesurent les réflectances dans le rouge et le proche infrarouge.
-- Les capteurs environnementaux enregistrent la température, l’humidité et la pression.
-- Les données sont horodatées à l’aide du module RTC.
-- Les mesures sont enregistrées sur la carte SD au format CSV.
-
 == Exploitation des données
 1. Retirer la carte SD après la fin des mesures.
 2. Insérer la carte SD dans un ordinateur.
@@ -151,7 +144,7 @@ dans le rouge et le proche infrarouge.
    - afficher les données sous forme de tableaux,
    - tracer l’évolution du NDVI en fonction du temps.
 
-== Entretien et précautions
+## Entretien et précautions
 - Nettoyer régulièrement les capteurs spectraux pour éviter toute perturbation des mesures.
 - Vérifier l’état de charge de la batterie avant chaque campagne de mesure.
 - Éviter l’exposition prolongée à l’humidité ou à des températures extrêmes sans protection adaptée.
