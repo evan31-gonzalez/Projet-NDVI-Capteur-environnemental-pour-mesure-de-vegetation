@@ -13,8 +13,8 @@ traitement et de visualisation des données.
   horodatage et enregistrement des données sur carte SD.
 
 - **python/**  
-  Scripts Python pour l’exploitation des données : affichage sous forme de
-  tableaux et tracé de l’évolution du NDVI en fonction du temps.
+  Scripts Python pour l’exploitation des données : affichage des
+ données et tracé de l’évolution du NDVI et des paramètres environnementaux en fonction du temps.
 
 ---
 
