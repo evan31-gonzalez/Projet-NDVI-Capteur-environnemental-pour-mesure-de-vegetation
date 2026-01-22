@@ -37,3 +37,12 @@ Les scripts Python permettent :
 - la lecture des fichiers CSV générés par le capteur,
 - l’affichage des données sous forme de tableaux,
 - le tracé de l’indice NDVI en fonction du temps.
+
+### Bibliothèques utilisées :
+- `tkinter` (`tk`) pour la création de l'interface graphique,
+- `serial` pour la gestion des communications série avec le capteur,
+- `matplotlib.pyplot` (`plt`) pour la création de graphiques,
+- `FigureCanvasTkAgg` pour l'intégration des graphiques dans l'interface Tkinter,
+- `numpy` (`np`) pour les calculs numériques,
+- `time` pour la gestion du temps,
+- `random` pour la génération de données aléatoires .
