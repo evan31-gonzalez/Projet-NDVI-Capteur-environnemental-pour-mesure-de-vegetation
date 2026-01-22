@@ -107,3 +107,54 @@ Projet encadré par :
 
 ## Licence
 Ce projet est distribué sous licence MIT.
+
+
+---
+
+## Protocole
+= Objectif
+Ce protocole décrit la mise en œuvre et l’utilisation du capteur NDVI développé dans le cadre du projet tutoré.
+Le dispositif permet de mesurer l’indice de végétation NDVI d’une parcelle viticole à partir de mesures de réflectance
+dans le rouge et le proche infrarouge.
+
+== Préparation du système
+1. Vérifier que l’ensemble des capteurs est correctement câblé à la carte Arduino.
+2. Insérer une carte SD formatée dans le lecteur prévu à cet effet.
+3. Vérifier le bon branchement du module RTC DS3231 pour l’horodatage des mesures.
+4. S’assurer que le boîtier est correctement fermé et que les capteurs spectraux sont dégagés.
+
+== Téléversement du programme
+1. Ouvrir le logiciel Arduino IDE sur l’ordinateur.
+2. Sélectionner la carte *Arduino Nano 33 IoT* dans le menu *Outils > Type de carte*.
+3. Sélectionner le port de communication correspondant à la carte.
+4. Ouvrir le fichier du programme Arduino du capteur NDVI.
+5. Téléverser le programme sur la carte Arduino.
+
+== Mise en place sur le terrain
+1. Positionner le capteur de manière stable au-dessus de la vigne.
+2. Orienter le premier capteur spectral vers la végétation.
+3. Orienter le second capteur spectral vers le ciel afin de mesurer la lumière incidente.
+4. Vérifier que le capteur reste immobile pendant la phase de mesure.
+
+== Acquisition des données
+- Le capteur démarre automatiquement l’acquisition après la mise sous tension.
+- Les capteurs spectraux mesurent les réflectances dans le rouge et le proche infrarouge.
+- Les capteurs environnementaux enregistrent la température, l’humidité et la pression.
+- Les données sont horodatées à l’aide du module RTC.
+- Les mesures sont enregistrées sur la carte SD au format CSV.
+
+== Exploitation des données
+1. Retirer la carte SD après la fin des mesures.
+2. Insérer la carte SD dans un ordinateur.
+3. Récupérer les fichiers CSV enregistrés.
+4. Utiliser les scripts Python fournis pour :
+   - afficher les données sous forme de tableaux,
+   - tracer l’évolution du NDVI en fonction du temps.
+
+== Entretien et précautions
+- Nettoyer régulièrement les capteurs spectraux pour éviter toute perturbation des mesures.
+- Vérifier l’état de charge de la batterie avant chaque campagne de mesure.
+- Éviter l’exposition prolongée à l’humidité ou à des températures extrêmes sans protection adaptée.
+- Couper l’alimentation avant toute manipulation interne du système.
+
+
