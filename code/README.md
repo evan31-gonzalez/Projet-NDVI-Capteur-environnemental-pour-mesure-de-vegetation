@@ -29,6 +29,12 @@ Le code Arduino permet :
 
 Le code est développé et testé sur une carte **Arduino Nano 33 IoT**.
 
+### Bibliothèques utilisées :
+- `Wire` : Permet la communication I2C entre l'Arduino et les capteurs.
+- `Adafruit_BME280` : Fournit des fonctions pour interagir avec le capteur BME280 (température, humidité, pression).
+- `Adafruit_MPU6050` : Fournit des fonctions pour interagir avec le capteur MPU6050 (accéléromètre et gyroscope).
+- `Adafruit_Sensor` : Interface commune pour les capteurs Adafruit, permettant de gérer les événements de capteurs.
+
 ---
 
 ## Code Python
