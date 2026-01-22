@@ -91,10 +91,10 @@ Les campagnes de mesures terrain sont prévues sur des parcelles de vigne situé
 
 ## Équipe – Groupe 1
 - Evan GONZALEZ
-- Taha GHISSASSI  
+- Félix GRUÈS  
 - Yannis FABRE  
 - Sandro BARROT  
-- Félix GRUES  
+- Taha GHISSASSI  
 
 ---
 
