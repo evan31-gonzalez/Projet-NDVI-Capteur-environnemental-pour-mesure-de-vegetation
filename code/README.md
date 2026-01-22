@@ -52,3 +52,4 @@ Les scripts Python permettent :
 - `numpy` (`np`) pour les calculs numériques,
 - `time` pour la gestion du temps,
 - `random` pour la génération de données aléatoires .
+- `re` permet de lire l'Arduino
