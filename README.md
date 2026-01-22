@@ -56,31 +56,31 @@ Ce protocole décrit la mise en œuvre et l’utilisation du capteur NDVI dével
 Le dispositif permet de mesurer l’indice de végétation NDVI d’une parcelle viticole à partir de mesures de réflectance
 dans le rouge et le proche infrarouge.
 
-== Préparation du système
+Préparation du système
 1. Vérifier que l’ensemble des capteurs est correctement câblé à la carte Arduino.
 2. Insérer une carte SD formatée dans le lecteur prévu à cet effet.
 3. Vérifier le bon branchement du module RTC DS3231 pour l’horodatage des mesures.
 4. S’assurer que le boîtier est correctement fermé et que les capteurs spectraux sont dégagés.
 
-== Téléversement du programme
+Téléversement du programme
 1. Ouvrir le logiciel Arduino IDE sur l’ordinateur.
 2. Sélectionner la carte *Arduino Nano 33 IoT* dans le menu *Outils > Type de carte*.
 3. Sélectionner le port de communication correspondant à la carte.
 4. Ouvrir le fichier du programme Arduino du capteur NDVI.
 5. Téléverser le programme sur la carte Arduino.
 
-== Mise en place sur le terrain
+Mise en place sur le terrain
 1. Positionner le capteur de manière stable au-dessus de la vigne.
 2. Orienter le premier capteur spectral vers la végétation.
 3. Orienter le second capteur spectral vers le ciel afin de mesurer la lumière incidente.
 4. Vérifier que le capteur reste immobile pendant la phase de mesure.
 
-== Exploitation des données
+Exploitation des données
 1. Retirer la carte SD après la fin des mesures.
 2. Insérer la carte SD dans un ordinateur.
-3. Récupérer les fichiers CSV enregistrés.
+3. Récupérer les fichiers CSV enregistrés grâce à la carte SD qui affiche les données sous forme de tableau.
 4. Utiliser les scripts Python fournis pour :
-   - afficher les données sous forme de tableaux,
+   - afficher les données,
    - tracer l’évolution du NDVI en fonction du temps.
 
 ## Entretien et précautions
