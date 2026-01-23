@@ -22,3 +22,4 @@ visualisation_ndvi_vX.Y.py
 ## Version actuelle
 
 - v0.1 : première version permettant l’affichage des données et la génération des premières courbes NDVI.
+- v0.2 : version permettant l’affichage des données et la génération des courbes NDVI depuis un fichier .csv.
