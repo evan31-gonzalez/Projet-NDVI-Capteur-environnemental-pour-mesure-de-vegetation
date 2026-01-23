@@ -35,6 +35,8 @@ Le code est développé et testé sur une carte **Arduino Nano 33 IoT**.
 - `Adafruit_MPU6050` : Fournit des fonctions pour interagir avec le capteur MPU6050 (accéléromètre et gyroscope).
 - `Adafruit_Sensor` : Interface commune pour les capteurs Adafruit, permettant de gérer les événements de capteurs.
 - `Adafruit_AS7268` : piloter le capteur de lumière de précision AS7268
+-  `SD` : Gestion de la carte SD pour l’enregistrement des données.
+- `SPI`  : Protocole de communication SPI utilisé par la carte SD.
 
 ---
 
