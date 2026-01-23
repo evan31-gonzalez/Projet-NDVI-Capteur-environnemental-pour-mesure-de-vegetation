@@ -24,3 +24,4 @@ où X.Y correspond à la version du code.
 ## Version actuelle
 
 - v0.1 : première version fonctionnelle du code Arduino, permettant l’acquisition des données et leur enregistrement.
+- V0.4 : dernière version fonctionnelle du code Arduino, permettant l'acquisition et le stockage des données sur un fichier CSV, incluant la carte SD formatée et les autres capteurs fonctionnels. 
