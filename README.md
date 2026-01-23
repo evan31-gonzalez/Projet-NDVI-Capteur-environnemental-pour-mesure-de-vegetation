@@ -52,7 +52,7 @@ Les mesures sont horodatées et stockées sur carte SD afin de permettre une exp
 ---
 
 ## Protocole
-= Objectif
+
 Ce protocole décrit la mise en œuvre et l’utilisation du capteur NDVI développé dans le cadre du projet tutoré.
 Le dispositif permet de mesurer l’indice de végétation NDVI d’une parcelle viticole à partir de mesures de réflectance
 dans le rouge et le proche infrarouge.
