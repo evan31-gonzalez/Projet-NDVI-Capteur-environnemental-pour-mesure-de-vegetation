@@ -5,8 +5,7 @@ Ce dossier contient les scripts Python utilisés pour l’exploitation des donn�
 Ces scripts permettent :
 - la lecture des fichiers de données issus de la carte SD,
 - le traitement des mesures spectrales,
-- le calcul de l’indice NDVI,
-- la visualisation des données sous forme de tableaux et de courbes (NDVI en fonction du temps).
+- la visualisation des données et de courbes (NDVI en fonction du temps).
 
 ---
 
