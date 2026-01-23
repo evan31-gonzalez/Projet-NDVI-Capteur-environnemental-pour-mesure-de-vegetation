@@ -50,6 +50,7 @@ Le système de mesure repose sur les composants suivants :
 Les mesures sont horodatées et stockées sur carte SD afin de permettre une exploitation ultérieure.
 
 ---
+
 ## Protocole
 = Objectif
 Ce protocole décrit la mise en œuvre et l’utilisation du capteur NDVI développé dans le cadre du projet tutoré.
@@ -82,6 +83,8 @@ Exploitation des données
 4. Utiliser les scripts Python fournis pour :
    - afficher les données,
    - tracer l’évolution du NDVI en fonction du temps.
+
+---
 
 ## Entretien et précautions
 - Nettoyer régulièrement les capteurs spectraux pour éviter toute perturbation des mesures.
